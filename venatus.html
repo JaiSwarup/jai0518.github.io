@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GitHub Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      nav {
+        background-color: #24292e;
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      nav li {
+        margin: 10px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      header {
+        background-color: #24292e;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+
+      .profile {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .profile img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+
+      .profile h2 {
+        margin: 10px 0;
+      }
+
+      .profile p {
+        color: #666;
+      }
+
+      .repositories {
+        border-top: 1px solid #ccc;
+        padding-top: 20px;
+      }
+
+      .repositories h2 {
+        margin-top: 0;
+      }
+
+      .repositories ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .repositories li {
+        margin: 10px 0;
+      }
+
+      .repositories a {
+        color: #0366d6;
+        text-decoration: none;
+      }
+
+      .repositories a:hover {
+        text-decoration: underline;
+      }
+
+      @media only screen and (max-width: 600px) {
+        nav ul {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Repositories</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>GitHub Profile</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="profile">
+          <img src="cat.jpg" alt="Profile Picture" />
+          <h2>John Doe</h2>
+          <p>Software Engineer</p>
+          <a href="https://github.com/JaiSwarup">View Profile</a>
+        </div>
+        <div class="repositories">
+          <h2>Repositories</h2>
+          <ul>
+            <li>
+              <a href="https://github.com/JaiSwarup/repository1"
+                >Repository 1</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/JaiSwarup/repository2"
+                >Repository 2</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/JaiSwarup/repository3"
+                >Repository 3</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
